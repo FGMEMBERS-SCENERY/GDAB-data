@@ -18,9 +18,6 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="osm_crop20170809080134738" name="osm_crop">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="osm_industrial20170809080917050" name="osm_industrial">
-      <customproperties/>
-    </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="osm_town20170809075104799" name="osm_town">
       <customproperties/>
     </layer-tree-layer>
@@ -48,13 +45,16 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="multipolygons_any20170809195517954" name="multipolygons any">
       <customproperties/>
     </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="osm_industrial20170809080917050" name="osm_industrial">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="osm520170809083933433" name="osm5">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="multipolygons_any20170809083918236" name="multipolygons any">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="osm420170809082056189" name="osm4">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="osm420170809082056189" name="osm4">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="multipolygons_any20170809081935585" name="multipolygons any">
@@ -66,7 +66,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="multipolygons_any20170809080619627" name="multipolygons any">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="osm220170809073942614" name="osm2">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="osm220170809073942614" name="osm2">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="multipolygons_any20170809073907165" name="multipolygons any">
@@ -83,10 +83,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-61.29753743848183944</xmin>
-      <ymin>15.54452727239111809</ymin>
-      <xmax>-61.28847215848188057</xmax>
-      <ymax>15.55133799239109393</ymax>
+      <xmin>-61.07841917533248477</xmin>
+      <ymin>16.30052912943506271</ymin>
+      <xmax>-61.07388653533250533</xmax>
+      <ymax>16.30393448943505064</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -160,11 +160,6 @@
         <legendlayerfile isInOverview="0" layerid="osm_crop20170809080134738" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="osm_industrial" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="osm_industrial20170809080917050" visible="1"/>
-      </filegroup>
-    </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="osm_town" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="osm_town20170809075104799" visible="1"/>
@@ -210,6 +205,11 @@
         <legendlayerfile isInOverview="0" layerid="multipolygons_any20170809195517954" visible="1"/>
       </filegroup>
     </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="osm_industrial" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="osm_industrial20170809080917050" visible="1"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="osm5" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="osm520170809083933433" visible="0"/>
@@ -220,9 +220,9 @@
         <legendlayerfile isInOverview="0" layerid="multipolygons_any20170809083918236" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="osm4" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="osm4" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="osm420170809082056189" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="osm420170809082056189" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="multipolygons any" showFeatureCount="0">
@@ -240,9 +240,9 @@
         <legendlayerfile isInOverview="0" layerid="multipolygons_any20170809080619627" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="osm2" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="osm2" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="osm220170809073942614" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="osm220170809073942614" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="multipolygons any" showFeatureCount="0">
@@ -4416,7 +4416,7 @@
         </spatialrefsys>
       </srs>
       <provider encoding="System">ogr</provider>
-      <previewExpression></previewExpression>
+      <previewExpression>COALESCE( "id", '&lt;NULL>' )</previewExpression>
       <vectorjoins/>
       <expressionfields/>
       <map-layer-style-manager current="">
@@ -4424,6 +4424,9 @@
       </map-layer-style-manager>
       <edittypes>
         <edittype widgetv2type="TextEdit" name="id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="unreal">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -4484,6 +4487,9 @@
       <attributeactions/>
       <edittypes>
         <edittype widgetv2type="TextEdit" name="id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="unreal">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
